@@ -21,6 +21,8 @@
 11.2. Sentiment analysis of each sentence  
 11.3. Threshold logic to determine mixed reviews
 
+🎯 **Prediction output of rule-based detection approach** 🎯
+[<img src="https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/example-reviews-mixed-label.png" width="800"/>](https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/example-reviews-mixed-label.png)
 
 ## Model Introduction 📚
 
@@ -88,7 +90,7 @@ lr_scheduler = get_scheduler('linear',
 ```
 ## Model Performance 🎯
 
-The model was trained on a subset of the IMDb data. The model performance examined by confusion matrix and evaluation metrics; precision, recall, and F1-score.
+The model was trained on a subset of the IMDb data. The model performance was examined by confusion matrix and evaluation metrics; precision, recall, and F1-score.
 
 ###  Classification Metrics Table
 
@@ -101,9 +103,10 @@ The model was trained on a subset of the IMDb data. The model performance examin
 | `Micro Avg.` | 0.92| 0.92 | 0.92|
 
 ###  Confusion Matrix
+[<img src="https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/confusion-matrix.png" width="800"/>]([https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/example-reviews-mixed-label.png](https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/confusion-matrix.png))
 
 ###  Rule-Based Detection Using Sentence Splitting
-For the multi-class sentiment (positive, negative, mixed), customized logit thresholds were used.
+Customized logit thresholds were used for the multi-class sentiment (positive, negative, mixed).
 
 ```
 # Define function to classify reviews into 3 classes based on logits
@@ -151,7 +154,7 @@ def classify_review_mixed(review):
 📌 To extend this further, I implemented a custom approach to classify reviews into three categories—positive, negative, and mixed—by leveraging the output logits from BERT and applying threshold-based logic. 
 
 🔹 With BERT's ability to capture context from both directions in a sentence, it stands out as a valuable tool for any sentiment analysis task.  
-🔹 This project highlights BERT's effectiveness in handling text classification tasks. It sets the foundation for more complex NLP tasks such as **opinion mining**, **review summarization**, or other applications in business intelligence and customer feedback analysis.
+🔹 This project highlights BERT's effectiveness in handling text classification tasks. It sets the foundation for more complex NLP tasks such as **opinion mining**, **review summarization**, or other business intelligence and customer feedback analysis applications.
 
 ## Future Insights 
 
@@ -175,4 +178,4 @@ For any questions or inquiries, feel free to reach out:
 - **LinkedIn:** [Sevilay Munire Girgin](www.linkedin.com/in/sevilay-munire-girgin-8902a7159)
 Thank you for visiting my project repository. Happy and accurate classification! 💕
 ## License 🔐
-The project is licensed under the MIT License.# BERT-SentimentAnalysis-IMDbReviews
+The project is licensed under the MIT License.
