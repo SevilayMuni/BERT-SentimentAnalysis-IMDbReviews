@@ -1,0 +1,31 @@
+# Locally Imported Modules from Project's Jupyter Notebook:
+
+matplotlib==3.7.2
+nltk==3.8.1
+numpy==1.23.5
+pandas==2.0.3
+seaborn==0.12.2
+torch==2.2.2
+tqdm==4.66.5
+transformers==4.32.1
+
+# List of packages from Project's Jupyter Notebook:
+
+['builtins',
+ 'builtins',
+ 'sys',
+ 'numpy',
+ 'pandas',
+ 'seaborn',
+ 'matplotlib.pyplot',
+ 'random',
+ 'torch',
+ 'torch.nn',
+ 'nltk',
+ 'pkg_resources',
+ 'types']
+
+
+
+
+
