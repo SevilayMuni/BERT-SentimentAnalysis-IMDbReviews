@@ -103,7 +103,7 @@ The model was trained on a subset of the IMDb data. The model performance was ex
 | `Micro Avg.` | 0.92| 0.92 | 0.92|
 
 ###  Confusion Matrix
-[<img src="https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/confusion-matrix.png" width="600"/>]([https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/example-reviews-mixed-label.png](https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/confusion-matrix.png))
+[<img src="https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/confusion-matrix.png" width="500"/>]([https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/example-reviews-mixed-label.png](https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/confusion-matrix.png))
 
 ###  Rule-Based Detection Using Sentence Splitting
 Customized logit thresholds were used for the multi-class sentiment (positive, negative, mixed).
