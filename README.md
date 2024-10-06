@@ -21,7 +21,7 @@
 11.2. Sentiment analysis of each sentence  
 11.3. Threshold logic to determine mixed reviews
 
-🎯 **Prediction output of rule-based detection approach** 🎯
+🎯 **Prediction Output of Rule-Based Detection Approach** 🎯
 [<img src="https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/example-reviews-mixed-label.png" width="800"/>](https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/example-reviews-mixed-label.png)
 
 ## Model Introduction 📚
@@ -103,7 +103,7 @@ The model was trained on a subset of the IMDb data. The model performance was ex
 | `Micro Avg.` | 0.92| 0.92 | 0.92|
 
 ###  Confusion Matrix
-[<img src="https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/confusion-matrix.png" width="800"/>]([https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/example-reviews-mixed-label.png](https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/confusion-matrix.png))
+[<img src="https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/confusion-matrix.png" width="600"/>]([https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/example-reviews-mixed-label.png](https://github.com/SevilayMuni/BERT-SentimentAnalysis-IMDbReviews/blob/main/images/confusion-matrix.png))
 
 ###  Rule-Based Detection Using Sentence Splitting
 Customized logit thresholds were used for the multi-class sentiment (positive, negative, mixed).
