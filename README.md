@@ -174,7 +174,6 @@ Packages: `builtins`, `sys`, `matplotlib.pyplot`,
  `random`, `torch.nn`, `pkg_resources`, `types`
 ## Contact 📩
 For any questions or inquiries, feel free to reach out:
-- **Email:** sevilaymunire68@gmail.com
 - **LinkedIn:** [Sevilay Munire Girgin](www.linkedin.com/in/sevilay-munire-girgin-8902a7159)
 Thank you for visiting my project repository. Happy and accurate classification! 💕
 ## License 🔐
